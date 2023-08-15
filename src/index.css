@@ -3,22 +3,16 @@
 @tailwind utilities;
 
 .item{
-  -webkit-text-stroke: 1px white;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
+.item:hover{
+  /* text-shadow: 0px 0px 0px #1eff00; */
+  /* text-shadow: #1eff00 1px 0 10px; */
+  text-shadow: 1px 1px 2px white, 0 0 1em #1eff00, 0 0 0.2em #1eff00;
+}
 
-.right-img{
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  animation: animate 2s infinite ease alternate;
-
-  @keyframes animate {
-    to {
-      transform: translateY(300px);
-    }
-  }
-
+.item{
+  -webkit-text-stroke: 3px #1eff00;
 }
