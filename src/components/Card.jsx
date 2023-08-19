@@ -4,7 +4,14 @@ const Card = () => {
   return (
 <div className="card w-96 bg-base-100 shadow-xl">
   <figure className="px-10 pt-10">
-    <img src="https://dummyimage.com/720x400" alt="Shoes" className="rounded-xl" />
+    <div>
+      <img src="https://dummyimage.com/720x400" alt="Shoes" className="rounded-xl" />
+    </div>
+    <div>
+      <img src="src\assets\clip.svg" alt="clip" className='w-[80px]'/>
+      <img src="src\assets\github.svg" alt="github" className='w-[150px]'/>
+    </div>
+
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title">Title</h2>
