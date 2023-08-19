@@ -12,13 +12,13 @@ const Navbar = () => {
 
           <section className='flex gap-[20px] cursor-pointer text-[#d3d1d1] font-[500]'>
 
-            <div className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,252,252)] w-[55px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Home</div>
+            <button className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,252,252)] w-[55px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Home</button>
 
-            <div className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,255,252)] w-[55px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Studio</div>
+            <button className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,255,252)] w-[55px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Studio</button>
 
-            <div className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,252,252)] w-[55px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Works</div>
+            <button className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,252,252)] w-[55px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Works</button>
 
-            <div className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,252,252)] w-[65px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Contact</div>
+            <button className=' hover:text-[black] hover:bg-[white] hover:font-[500] hover:shadow-[0px_0px_30px_0px_rgba(252,252,252)] w-[65px] text-center rounded transition ease-in-out duration-500 brightness-75 hover:brightness-100'>Contact</button>
 
           </section>
 
