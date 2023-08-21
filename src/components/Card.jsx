@@ -17,9 +17,9 @@ const Card = () => {
     <h2 className="card-title">Title</h2>
     <p>Description</p>
     <div className="card-actions">
-      <span className="btn btn-primary">Tag</span>
-      <span className="btn btn-primary">Tag</span>
-      <span className="btn btn-primary">Tag</span>
+      <span className="btn btn-primary">tech</span>
+      <span className="btn btn-primary">tech</span>
+      <span className="btn btn-primary">tech</span>
     </div>
   </div>
 </div>  )
