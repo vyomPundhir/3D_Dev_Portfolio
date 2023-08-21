@@ -32,14 +32,33 @@ const Works = () => {
 
         </div>
         
-
-        <div className="right-works">
-          {work === "HTML & CSS" ? (<WebDesign/>) : work === "JavaScript" ? (<Development/>) : (<ProductDesign/>)}
+        <div className="carousel carousel-end rounded-box">
+          <div className="carousel-item">
+            <Card/>
+          </div> 
+          <div className="carousel-item">
+            <Card/>
+          </div> 
+          <div className="carousel-item">
+            <Card/>
+          </div> 
+          <div className="carousel-item">
+            <Card/>
+          </div> 
+          <div className="carousel-item">
+            <Card/>
+          </div> 
+          <div className="carousel-item">
+            <Card/>
+          </div> 
+          <div className="carousel-item">
+            <Card/>
+          </div>
         </div>
+        {/* <div className="right-works">
+          {work === "HTML & CSS" ? (<WebDesign/>) : work === "JavaScript" ? (<Development/>) : (<ProductDesign/>)}
+        </div> */}
       </section>
-      <div>
-        <Card/>
-      </div>
     </div>
   )
 }
