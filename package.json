@@ -15,6 +15,7 @@
     "@react-three/fiber": "^8.13.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.162",
     "styled-components": "^6.0.7",
     "three": "^0.155.0"
   },
