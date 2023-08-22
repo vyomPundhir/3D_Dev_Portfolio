@@ -1,5 +1,5 @@
 import React from 'react'
-import { categoryNames } from '../constants';
+import { categoryNames, htmlCssProjects } from '../constants';
 import WebDesign from './WebDesign'
 import Development from './Development'
 import ProductDesign  from "./ProductDesign";
@@ -8,19 +8,12 @@ import Card from './Card';
 
 const Works = () => {
 
-  const [work, setWork] = useState("Web Design")
+  // const [work, setWork] = useState("Web Design")
 
   return (
-    <div className='m-0 p-0 box-border h-screen text-white snap-center'>
+    <div className='m-0  p-0 box-border  text-white snap-center'>
       <section className='flex flex-col justify-center items-center'>
-        <div className="flex justify-center items-center gap-[100px]">
-
-            {/* <div className='item px-5 text-[80px] font-[700] cursor-pointer text-transparent relative hover:shadow-md' onClick={()=>setWork("HTML & CSS")}>HTML & CSS</div>
-
-            <div className='item text-[80px] font-[700] cursor-pointer text-transparent'
-            onClick={()=>setWork("JavaScript")}>JavaScript</div>
-
-            <div className='item text-[80px] font-[700] cursor-pointer text-transparent'  onClick={()=>setWork("React")}>ReactJS</div> */}
+        <div className="flex justify-center items-center gap-[100px] mb-24">
 
             {
               categoryNames.map((item)=>(
@@ -31,30 +24,16 @@ const Works = () => {
             }
 
         </div>
-        
-        <div className="carousel carousel-end rounded-box">
-          <div className="carousel-item">
-            <Card/>
-          </div> 
-          <div className="carousel-item">
-            <Card/>
-          </div> 
-          <div className="carousel-item">
-            <Card/>
-          </div> 
-          <div className="carousel-item">
-            <Card/>
-          </div> 
-          <div className="carousel-item">
-            <Card/>
-          </div> 
-          <div className="carousel-item">
-            <Card/>
-          </div> 
-          <div className="carousel-item">
-            <Card/>
+
+        <div className='flex flex-row justify-center items-center flex-wrap gap-20 '>
+        {htmlCssProjects.map((project,index) => (
+          <div key={index} >
+            <Card />
           </div>
+        ))}
         </div>
+        
+        
         {/* <div className="right-works">
           {work === "HTML & CSS" ? (<WebDesign/>) : work === "JavaScript" ? (<Development/>) : (<ProductDesign/>)}
         </div> */}
