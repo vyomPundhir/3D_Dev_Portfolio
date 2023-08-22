@@ -2,12 +2,12 @@ import React from 'react'
 
 const Who = () => {
   return (
-    <div className='m-0 p-0 box-border h-screen text-white snap-center flex justify-center'>
+    <div className='m-40 p-0 box-border h-auto text-white snap-center flex justify-center'>
       <section className='text-[white] min-h-screen snap-center w-[1400px]
       flex justify-between'>
 
         <div className='left-who flex-1 relative'>
-          
+          <img src="src\assets\laser.gif" alt="laser" className='rounded-full' />
         </div>
 
         <div className='right-who flex-1 flex flex-col justify-center
