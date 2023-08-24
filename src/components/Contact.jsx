@@ -22,7 +22,7 @@ const Contact = () => {
 };
 
   return (
-    <div className='m-0 p-0 box-border snap-center h-screen'>
+    <div className='m-0 p-0 box-border snap-center w-full h-screen bg-black'>
       <section className='w-full h-full flex justify-center gap-[120px]'>
 
         <div className="left basis-1/2 flex justify-end items-center">
@@ -38,13 +38,16 @@ const Contact = () => {
 
             <button className='w-full bg-transparent text-[#1eff00] text-[22px] font-[700] border-[3px] border-[#1eff00] cursor-pointer rounded-[5px] p-[20px] hover:shadow-[0px_0px_30px_5px_#1eff00] hover:bg-[#c1c1c1] hover:text-[#0c5b00] transition ease-in-out duration-500' type='submit'>Send</button>
             {success &&
-              "Your Message has been sent. We will get back to you soon :)"
+              "Your Message has been sent. We will get back to you soon..."
             }
           </form>
         </div>
 
         <div className="right basis-1/2 flex justify-center items-center">
-          <img src="src\assets\worldmap-1.jpg" alt="map" className='cursor-pointer rounded-[25px] w-[650px] h-[400px] mr-[100px] mt-[80px] hover:shadow-[0px_0px_30px_10px_rgba(0,255,89)] transition ease-in-out duration-500 brightness-75 hover:brightness-100'/>
+          {/* <video loop autoplay>
+            <source src={earth} type="video/mp4" />
+          </video> */}
+          <img src="src\assets\earth.gif" alt="earth" className='rounded-full' />
         </div>
       </section>
     </div>
