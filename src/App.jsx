@@ -5,7 +5,7 @@ import Works from './components/Works'
 
 const App = () => {
   return (
-    <div className="m-0 p-0 flex flex-col justify-center items-center gap-[100px] box-border min-h-screen text-white snap-center snap-mandatory ">
+    <div className="m-0 p-0 flex flex-col justify-center items-center gap-[80px] box-border min-h-screen text-white snap-center snap-mandatory ">
       <Hero/>
       <Who/>
       <Works/>
