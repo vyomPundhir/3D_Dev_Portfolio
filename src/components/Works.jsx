@@ -1,5 +1,5 @@
 import React from 'react'
-import { categoryNames, htmlCssProjects } from '../constants';
+import { categoryNames, htmlCssProjects, tailwindProjects } from '../constants';
 import WebDesign from './WebDesign'
 import Development from './Development'
 import ProductDesign  from "./ProductDesign";
@@ -8,7 +8,16 @@ import Card from './Card';
 
 const Works = () => {
 
-  // const [work, setWork] = useState("Web Design")
+  const [project, setProject] = useState(htmlCssProjects)
+
+  const handleClick = (projectType) => {
+    if(projectType === 'HTML & CSS'){
+      setProject(htmlCssProjects)
+    }
+    if(projectType === 'Tailwind CSS'){
+      setProject(tailwindProjects)
+    }
+  }
 
   return (
     <div className='m-0  p-0 box-border  text-white snap-center'>
@@ -17,7 +26,10 @@ const Works = () => {
 
             {
               categoryNames.map((item)=>(
-                <button key={item.id} className='w-[450px] item py-3 text-[50px] text-center font-[700] cursor-pointer text-transparent relative hover:shadow-[0px_0px_30px_5px_rgba(0,255,89)] focus:shadow-[0px_0px_30px_5px_rgba(0,255,89)] rounded-2xl'>
+                <button 
+                key={item.id} 
+                onClick={()=> handleClick(item.title)}
+                className='w-[300px] item py-3 text-[42px] text-center font-[700] cursor-pointer text-transparent relative hover:shadow-[0px_0px_30px_5px_rgba(0,255,89)] focus:shadow-[0px_0px_30px_5px_rgba(0,255,89)] rounded-2xl'>
                   {item.title}
                 </button>
               ))
@@ -26,17 +38,13 @@ const Works = () => {
         </div>
 
         <div className='flex flex-row justify-center items-center flex-wrap gap-20 '>
-        {htmlCssProjects.map((project,index) => (
-          <div key={index} >
-            <Card />
-          </div>
-        ))}
+          {project.map((pj,index) => (
+            <div key={index} >
+              <Card title={pj.name} des={pj.description} git={pj.source_code_link} link={pj.live_link} image={pj.image} tags={pj.tags}/>
+            </div>
+          ))}
         </div>
         
-        
-        {/* <div className="right-works">
-          {work === "HTML & CSS" ? (<WebDesign/>) : work === "JavaScript" ? (<Development/>) : (<ProductDesign/>)}
-        </div> */}
       </section>
     </div>
   )

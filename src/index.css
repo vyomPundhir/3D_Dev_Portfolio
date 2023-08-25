@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+  background: linear-gradient(to right, #000000, #021914);
+}
+
 .item{
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
@@ -17,6 +22,7 @@
 .item{
   -webkit-text-stroke: 1px #1eff00;
 }
+
 .item:focus{
   -webkit-text-stroke: 2px #1eff00;
   text-shadow: 1px 1px 2px white, 0 0 1em #1eff00, 0 0 0.2em #1eff00;
