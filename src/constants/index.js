@@ -10,6 +10,7 @@ import realestate from '../assets/realestate.png'
 import beats from '../assets/beats.png'
 import dataanalytics from '../assets/dataanalytics.png'
 import vscode from '../assets/vscode.png'
+import fitfusion from '../assets/fitfusion.png'
 
 
 export const categoryNames = [
@@ -262,7 +263,50 @@ export const javascriptProjects =[
 ]
 
 export const reactjsProjects = [
-
+	{
+		name: "Fit Fusion",
+		description:
+			"A Fitness & Gym Exercises Application where the user can Search for the Exercise Description related to a Target Muscle, Body Part, Equipments, etc.",
+		tags: [
+			{
+				name: "html",
+				color: "#1eff00",
+			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			{
+				name: "react",
+				color: "#00f6ff",
+			},
+		],
+		image: fitfusion,
+		source_code_link: "https://github.com/vyomPundhir/Fit_Fusion",
+		live_link: "https://fit-fusion-mk.netlify.app/",
+	},
+	{
+		name: "Video Craze",
+		description:
+			"A YouTube like Video Streaming Application where the user can Play the Video, Search for Videos, Filter Out Categories, Explore Channel Detail page, etc.",
+		tags: [
+			{
+				name: "html",
+				color: "#1eff00",
+			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			{
+				name: "react",
+				color: "#00f6ff",
+			},
+		],
+		image: fitfusion,
+		source_code_link: "https://github.com/vyomPundhir/Fit_Fusion",
+		live_link: "https://fit-fusion-mk.netlify.app/",
+	},
 ]
 
 
