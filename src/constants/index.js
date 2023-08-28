@@ -305,7 +305,7 @@ export const reactjsProjects = [
 			},
 		],
 		image: videocraze,
-		source_code_link: "https://github.com/vyomPundhir/Fit_Fusion",
+		source_code_link: "https://github.com/vyomPundhir/Video_Craze",
 		live_link: "https://fit-fusion-mk.netlify.app/",
 	},
 ]
