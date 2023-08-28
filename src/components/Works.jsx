@@ -1,5 +1,5 @@
 import React from 'react'
-import { categoryNames, htmlCssProjects, tailwindProjects } from '../constants';
+import { categoryNames, htmlCssProjects, tailwindProjects, reactjsProjects } from '../constants';
 import WebDesign from './WebDesign'
 import Development from './Development'
 import ProductDesign  from "./ProductDesign";
@@ -16,6 +16,9 @@ const Works = () => {
     }
     if(projectType === 'Tailwind CSS'){
       setProject(tailwindProjects)
+    }
+    if(projectType === 'React'){
+      setProject(reactjsProjects)
     }
   }
 
