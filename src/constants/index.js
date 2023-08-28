@@ -306,7 +306,7 @@ export const reactjsProjects = [
 		],
 		image: videocraze,
 		source_code_link: "https://github.com/vyomPundhir/Video_Craze",
-		live_link: "https://fit-fusion-mk.netlify.app/",
+		live_link: "https://video-craze-tj.netlify.app/",
 	},
 ]
 
