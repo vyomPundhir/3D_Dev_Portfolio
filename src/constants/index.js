@@ -11,6 +11,7 @@ import beats from '../assets/beats.png'
 import dataanalytics from '../assets/dataanalytics.png'
 import vscode from '../assets/vscode.png'
 import fitfusion from '../assets/fitfusion.png'
+import videocraze from '../assets/videocraze.png'
 
 
 export const categoryNames = [
@@ -303,7 +304,7 @@ export const reactjsProjects = [
 				color: "#00f6ff",
 			},
 		],
-		image: fitfusion,
+		image: videocraze,
 		source_code_link: "https://github.com/vyomPundhir/Fit_Fusion",
 		live_link: "https://fit-fusion-mk.netlify.app/",
 	},
