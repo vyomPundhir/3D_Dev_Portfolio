@@ -12,6 +12,8 @@ import dataanalytics from '../assets/dataanalytics.png'
 import vscode from '../assets/vscode.png'
 import fitfusion from '../assets/fitfusion.png'
 import videocraze from '../assets/videocraze.png'
+import todo from '../assets/todo.png'
+import githubuserfinder from '../assets/githubuserfinder.png'
 
 
 export const categoryNames = [
@@ -270,43 +272,86 @@ export const reactjsProjects = [
 			"A Fitness & Gym Exercises Application where the user can Search for the Exercise Description related to a Target Muscle, Body Part, Equipments, etc.",
 		tags: [
 			{
-				name: "html",
+				name: "react",
 				color: "#1eff00",
+			},
+			{
+				name: "rapidAPI",
+				color: "#00f6ff",
 			},
 			{
 				name: "tailwindcss",
 				color: "#ff0098",
 			},
-			{
-				name: "react",
-				color: "#00f6ff",
-			},
+			
 		],
 		image: fitfusion,
 		source_code_link: "https://github.com/vyomPundhir/Fit_Fusion",
 		live_link: "https://fit-fusion-mk.netlify.app/",
 	},
+
 	{
 		name: "Video Craze",
 		description:
 			"A YouTube like Video Streaming Application where the user can Play the Video, Search for Videos, Filter Out Categories, Explore Channel Detail page, etc.",
 		tags: [
 			{
-				name: "html",
+				name: "react",
+				color: "#1eff00",
+			},
+			{
+				name: "rapidAPI",
+				color: "#00f6ff",
+			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			
+		],
+		image: videocraze,
+		source_code_link: "https://github.com/vyomPundhir/Video_Craze",
+		live_link: "https://video-craze-tj.netlify.app/",
+	},
+
+	{
+		name: "TODO App",
+		description:
+			"A simple TODO App where the user can create a TODO, update it's status and delete it as well.",
+		tags: [
+			{
+				name: "react",
 				color: "#1eff00",
 			},
 			{
 				name: "tailwindcss",
 				color: "#ff0098",
 			},
+			
+		],
+		image: todo,
+		source_code_link: "https://github.com/vyomPundhir/Todo_App_React",
+		live_link: "https://todo-app-react-zeta-sooty.vercel.app/",
+	},
+
+	{
+		name: "GitHUb User Finder App",
+		description:
+			"A simple App where the user can fetch the details about anyone public Github details by providing the corresponding username.",
+		tags: [
 			{
 				name: "react",
-				color: "#00f6ff",
+				color: "#1eff00",
 			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			
 		],
-		image: videocraze,
-		source_code_link: "https://github.com/vyomPundhir/Video_Craze",
-		live_link: "https://video-craze-tj.netlify.app/",
+		image: githubuserfinder,
+		source_code_link: "https://github.com/vyomPundhir/GitHub_User_Finder",
+		live_link: "https://git-hub-user-finder-hazel.vercel.app/",
 	},
 ]
 
