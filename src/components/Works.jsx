@@ -1,5 +1,5 @@
 import React from 'react'
-import { categoryNames, htmlCssProjects, tailwindProjects, reactjsProjects } from '../constants';
+import {categoryNames, htmlCssProjects, tailwindProjects, reactjsProjects} from '../constants';
 import WebDesign from './WebDesign'
 import Development from './Development'
 import ProductDesign  from "./ProductDesign";
