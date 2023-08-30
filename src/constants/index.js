@@ -15,7 +15,7 @@ import videocraze from '../assets/videocraze.png'
 import todo from '../assets/todo.png'
 import githubuserfinder from '../assets/githubuserfinder.png'
 import calculator from '../assets/calculator.png'
-
+import tictactoe from '../assets/tictactoe.png'
 
 
 export const categoryNames = [
@@ -374,6 +374,26 @@ export const reactjsProjects = [
 		image: calculator,
 		source_code_link: "https://github.com/vyomPundhir/Calculator_App_Assignment",
 		live_link: "https://calculator-app-assignment.vercel.app/",
+	},
+
+	{
+		name: "Tic-Tac-Toe App",
+		description:
+			"A Tic-Tac-Toe App where the users can play the tic-tac-toe game.",
+		tags: [
+			{
+				name: "react",
+				color: "#1eff00",
+			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			
+		],
+		image: tictactoe,
+		source_code_link: "https://github.com/vyomPundhir/Tic_Tac_Toe_App",
+		live_link: "https://tic-tac-toe-app-tan.vercel.app/",
 	},
 ]
 
