@@ -14,6 +14,8 @@ import fitfusion from '../assets/fitfusion.png'
 import videocraze from '../assets/videocraze.png'
 import todo from '../assets/todo.png'
 import githubuserfinder from '../assets/githubuserfinder.png'
+import calculator from '../assets/calculator.png'
+
 
 
 export const categoryNames = [
@@ -335,7 +337,7 @@ export const reactjsProjects = [
 	},
 
 	{
-		name: "GitHUb User Finder App",
+		name: "GitHub User Finder App",
 		description:
 			"A simple App where the user can fetch the details about anyone public Github details by providing the corresponding username.",
 		tags: [
@@ -352,6 +354,26 @@ export const reactjsProjects = [
 		image: githubuserfinder,
 		source_code_link: "https://github.com/vyomPundhir/GitHub_User_Finder",
 		live_link: "https://git-hub-user-finder-hazel.vercel.app/",
+	},
+
+	{
+		name: "Calculator App",
+		description:
+			"A Simple Calculator App where the user can make the basic operations like Addition, Subtraction, Multiplication and Division, along with the clear button that clears the entries.",
+		tags: [
+			{
+				name: "react",
+				color: "#1eff00",
+			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			
+		],
+		image: calculator,
+		source_code_link: "https://github.com/vyomPundhir/Calculator_App_Assignment",
+		live_link: "https://calculator-app-assignment.vercel.app/",
 	},
 ]
 
