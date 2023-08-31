@@ -397,6 +397,38 @@ export const reactjsProjects = [
 	},
 ]
 
+export const techStackNames = [
+	{
+			image: html5,
+			content: "HTML 5",
+	}
+
+	{
+		image: css3,
+		content: "CSS 3",
+}
+
+{
+	image: tailwindcss,
+	content: "Tailwind CSS",
+}
+
+{
+	image: javascript,
+	content: "JavaScript",
+}
+
+{
+	image: reactjs,
+	content: "React",
+}
+
+{
+	image: git,
+	content: "Git",
+}
+
+]
 
 
 // export const technologies = [
