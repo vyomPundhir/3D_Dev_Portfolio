@@ -4,7 +4,7 @@ import CardTech from './CardTech'
 
 const TechStack = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <h1 className='text-[white]'>Tech Stack</h1>
       <div>
         <CardTech/>
