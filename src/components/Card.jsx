@@ -6,7 +6,7 @@ import {htmlCssProjects, tailwindProjects} from '../constants'
 const Card = ({title, des, tags, git, link, image}) => {
   return (
   <Tilt>
-    <div className="card w-96 border-[2px] border-[#1eff00] shadow-[0px_0px_17px_1px_rgba(0,255,89)] hover:shadow-[0px_0px_30px_10px_rgba(0,255,89)] transition ease-in-out duration-500 cursor-pointer">
+    <div className="card w-96 border-[2px] border-[#1eff00] shadow-[0px_0px_17px_1px_rgba(0,255,89)] hover:shadow-[0px_0px_30px_10px_rgba(0,255,89)] transition ease-in-out duration-500">
       <figure className="px-10 pt-10">
         <div>
           <img src={image} alt="img" className="rounded-xl" />
