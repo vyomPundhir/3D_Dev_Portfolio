@@ -1,8 +1,5 @@
 import React from 'react'
 import {categoryNames, htmlCssProjects, tailwindProjects, reactjsProjects} from '../constants';
-import WebDesign from './WebDesign'
-import Development from './Development'
-import ProductDesign  from "./ProductDesign";
 import { useState } from 'react';
 import Card from './Card';
 
@@ -23,9 +20,13 @@ const Works = () => {
   }
 
   return (
-    <div className='m-0  p-0 box-border  text-white snap-center'>
-      <section className='flex flex-col justify-center items-center'>
-        <div className="flex justify-center items-center gap-[100px] mb-24">
+    <div id='projects' className='m-0  p-0 box-border text-white snap-center mt-[80px]'>
+
+      <section className='flex flex-col gap-[70px] justify-center items-center'>
+
+        <div className='text-[white] text-[70px] font-[700]'>Projects</div>
+
+        <div className="flex justify-center items-center gap-[100px] pb-[18px]">
 
             {
               categoryNames.map((item)=>(
@@ -54,4 +55,3 @@ const Works = () => {
 }
 
 export default Works
-// hover:shadow-[0px_0px_30px_5px_rgba(0,255,89)]
