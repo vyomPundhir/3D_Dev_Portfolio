@@ -16,6 +16,16 @@ import todo from '../assets/todo.png'
 import githubuserfinder from '../assets/githubuserfinder.png'
 import calculator from '../assets/calculator.png'
 import tictactoe from '../assets/tictactoe.png'
+import html5 from '../assets/html5.png'
+import css3 from '../assets/css3.png'
+import tailwind from '../assets/tailwind.png'
+import javascript from '../assets/javascript.png'
+import react from '../assets/react.png'
+import git from '../assets/git.png'
+import github from '../assets/github.png'
+import www from '../assets/www.jpg'
+import cssselectors from '../assets/cssselectors.jpg'
+import cssboxmodel from '../assets/cssboxmodel.jpg'
 
 
 export const categoryNames = [
@@ -399,35 +409,67 @@ export const reactjsProjects = [
 
 export const techStackNames = [
 	{
-			// image: html5,
+			image: html5,
 			content: "HTML 5",
+			color: "#EF966C",
 	},
 
 	{
-		// image: css3,
+		image: css3,
 		content: "CSS 3",
+		color: "#5A98E6",
 	},
 
 	{
-		// image: tailwindcss,
+		image: tailwind,
 		content: "Tailwind CSS",
+		color: "#31D4CB",
 	},
 
 	{
-		// image: javascript,
+		image: javascript,
 		content: "JavaScript",
+		color: "#ffe500",
 	},
 
 	{
-		// image: reactjs,
+		image: react,
 		content: "React",
+		color: "#8584FF",
 	},
 
 	{
-		// image: git,
+		image: git,
 		content: "Git",
+		color: "#F74728",
 	},
 
+	{
+		image: github,
+		content: "GitHub",
+		color: "#7D7D7D",
+	},
+]
+
+export const Blogs = [
+	{
+		image: www,
+		name: "Introduction to Web and HTML",
+		description: "This Blog comprises of a detailed discussion of the Web and HTML.",
+		link: "https://vyompundhir.hashnode.dev/introduction-to-web-and-html",
+	},
+	{
+		image: cssselectors,
+		name: "CSS Selectors",
+		description: "This Blog comprises of a detailed discussion of the Selectors in CSS.",
+		link: "https://vyompundhir.hashnode.dev/css-selectors",
+	},
+	{
+		image: cssboxmodel,
+		name: "CSS Box Model",
+		description: "This Blog comprises of a detailed discussion of the CSS Box Model, i.e., Margin, Padding & Border.",
+		link: "https://vyompundhir.hashnode.dev/css-box-model-padding-margin-border",
+	}
 ]
 
 
