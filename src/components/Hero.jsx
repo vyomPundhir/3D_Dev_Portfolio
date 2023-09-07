@@ -25,7 +25,7 @@ const Hero = () => {
 
           </section>
 
-          <button className='shadow-[0px_0px_30px_0px_rgba(0,255,89)] font-[700] w-[100px] h-[30px] text-[black] bg-[#1eff00] rounded-[5px] outline-none cursor-[pointer] hover:shadow-[0px_0px_30px_5px_rgba(0,255,89)] transition ease-in-out duration-500'>Learn more</button>
+          <button className='shadow-[0px_0px_30px_0px_rgba(0,255,89)] font-[700] w-[100px] h-[30px] text-[black] bg-[#1eff00] rounded-[5px] outline-none cursor-[pointer] hover:shadow-[0px_0px_30px_5px_rgba(0,255,89)] transition ease-in-out duration-500'><a href='https://github.com/vyomPundhir' target="_blank">Learn more</a></button>
 
         </div>
 
