@@ -44,7 +44,7 @@ const scrollToSection = (id) => {
         <section className='flex gap-[25px]'>
           
           <button className='shadow-[0px_0px_30px_0px_rgba(0,255,89)] mt-[-5px] font-[700] w-auto px-5  h-auto py-1.5 text-md text-[black] bg-[#1eff00] rounded-[5px] outline-none cursor-[pointer] hover:shadow-[0px_0px_30px_5px_rgba(0,255,89)] transition ease-in-out duration-500'>
-            <a href="">Download Resume</a>
+            <a href="https://drive.google.com/file/d/1E1z1tfGPIfg7twVfCAvFXFrFlso8fYWt/view?usp=drive_link" target="_blank">Download Resume</a>
           </button>
         </section>
 
