@@ -1,6 +1,8 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt';
-import {htmlCssProjects, tailwindProjects} from '../constants'
+import github from "../assets/github.svg"
+import clip from "../assets/clip.svg"
+// import {htmlCssProjects, tailwindProjects} from '../constants'
 
 
 const Card = ({title, des, tags, git, link, image}) => {
@@ -13,13 +15,13 @@ const Card = ({title, des, tags, git, link, image}) => {
         </div>
       </figure>
 
-      <div className='flex gap-2 absolute z-10 mt-5 left-3/4'>
+      <div className='flex flex-row items-center gap-2 absolute z-10 mt-5 left-3/4'>
         <a href={git} target="_blank">
-          <img src="src\assets\github.svg" alt="github" className='w-[40px] border-2 rounded-full cursor-pointer'/>
+          <img src={github} alt="github" className='w-[40px] rounded-full border-2 cursor-pointer'/>
         </a>
       
-        <a href={link} target="_blank">
-          <img src="src\assets\paper-clip.svg" alt="clip" className='w-[40px] border-2 rounded-full bg-white cursor-pointer'/>
+        <a href={link} target="_blank" className='bg-[black] border-2 px-[3px] py-[3px] rounded-full'>
+          <img src={clip} alt="clip" className=' w-[28px] rounded-full bg-[black]  cursor-pointer '/>
         </a>
       </div>
 
