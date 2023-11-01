@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import {useState} from "react";
+import earth from "../assets/earth.gif";
 
 const Contact = () => {
 
@@ -44,7 +45,7 @@ const Contact = () => {
         </div>
 
         <div className="right basis-1/2 flex justify-center items-center">
-          <img src="src\assets\earth.gif" alt="earth" className='rounded-full' />
+          <img src={earth} alt="earth" className='rounded-full' />
         </div>
       </section>
     </div>
