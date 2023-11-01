@@ -1,4 +1,5 @@
 import React from 'react'
+import laser from "../assets/laser.gif"
 
 const Who = () => {
   const scrollToSection = (id) => {
@@ -12,7 +13,7 @@ const Who = () => {
       flex justify-center gap-[190px]'>
 
         <div className='left-who flex-1 flex justify-center items-center'>
-          <img src="src\assets\laser.gif" alt="laser" className='rounded-full mt-[30px]'/>
+          <img src={laser} alt="laser" className='rounded-full mt-[30px]'/>
         </div>
 
         <div className='right-who flex-1 flex flex-col justify-center
