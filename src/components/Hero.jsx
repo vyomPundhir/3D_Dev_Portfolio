@@ -20,7 +20,7 @@ const Hero = () => {
             <div className='w-[40px] h-[5px] bg-[#1eff00] rounded shadow-[0px_0px_30px_5px_rgba(0,255,89)]'></div>
 
             <div className='text-[26px]'>
-            I develop User Interfaces, APIs & Web Applications.
+              I develop User Interfaces, APIs & Web Applications.
             </div>
 
           </section>
