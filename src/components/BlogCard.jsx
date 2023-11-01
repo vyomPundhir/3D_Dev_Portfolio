@@ -1,6 +1,7 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt'
-import {Blogs} from '../constants'
+// import {Blogs} from '../constants'
+import clip from "../assets/clip.svg"
 
 const BlogCard = ({blogimage, blogdes, blogname, bloglink}) => {
   return (
@@ -13,8 +14,8 @@ const BlogCard = ({blogimage, blogdes, blogname, bloglink}) => {
         </figure>
 
         <div className='flex absolute z-10 mt-5 ml-[30px] left-3/4'>
-        <a href={bloglink} target="_blank">
-          <img src="src\assets\paper-clip.svg" alt="clip" className='w-[40px] border-2 rounded-full bg-white cursor-pointer'/>
+        <a href={bloglink} target="_blank" className='bg-[black] border-2 px-[3px] py-[3px] rounded-full'>
+        <img src={clip} alt="clip" className=' w-[28px] rounded-full bg-[black]  cursor-pointer '/>
         </a>
         </div>
 
