@@ -1,4 +1,6 @@
 import React from 'react'
+import logo from "../assets/Logo.jpg"
+import upArrow from "../assets/upArrow.png"
 
 const Navbar = () => {
 const scrollToSection = (id) => {
@@ -13,7 +15,7 @@ const scrollToSection = (id) => {
 
         <section className='flex items-center gap-[40px]'>
 
-          <a href="/"><img src="src\assets\Logo.jpg" alt="logo" className='w-[130px] cursor-pointer'/></a>
+          <a href="/"><img src={logo} alt="logo" className='w-[130px] cursor-pointer'/></a>
 
           <section className='flex gap-[20px] cursor-pointer text-[#d3d1d1] font-[500]'>
 
@@ -53,7 +55,7 @@ const scrollToSection = (id) => {
         <button
           onClick={()=> scrollToSection('navbar')}
           className='w-16 h-16 fixed z-10 bottom-12 right-12'>
-            <img src="src\assets\upArrow.png" alt="up arrow" />
+            <img src={upArrow} alt="up arrow" />
         </button>
     </div>
   )
