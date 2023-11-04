@@ -1,5 +1,6 @@
 import seo from '../assets/seomaster.png'
 import adminDashboard from "../assets/adminDashboard.png"
+import romiFinance from "../assets/romiFinance.png"
 import crypto from '../assets/cryptomarket.png'
 import fashion from '../assets/fashionhub.png'
 import calm from '../assets/calm.png'
@@ -429,6 +430,30 @@ export const reactjsProjects = [
 		image: tictactoe,
 		source_code_link: "https://github.com/vyomPundhir/Tic_Tac_Toe_App",
 		live_link: "https://tic-tac-toe-app-tan.vercel.app/",
+	},
+
+	{
+		name: "Romi Finance",
+		description:
+			"A User Interface of Romi Finance which is made exactly same as the reference Website provided to me, using React, Tailwind and applying routing.",
+		tags: [
+			{
+				name: "react",
+				color: "#1eff00",
+			},
+			{
+				name: "rapidAPI",
+				color: "#00f6ff",
+			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			
+		],
+		image: romiFinance,
+		source_code_link: "https://github.com/vyomPundhir/Pixel_Bridges_Assessment",
+		live_link: "https://romi-finance-vp.netlify.app/",
 	},
 ]
 
