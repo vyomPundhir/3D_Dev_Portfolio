@@ -1,4 +1,5 @@
 import seo from '../assets/seomaster.png'
+import adminDashboard from "../assets/adminDashboard.png"
 import crypto from '../assets/cryptomarket.png'
 import fashion from '../assets/fashionhub.png'
 import calm from '../assets/calm.png'
@@ -324,6 +325,30 @@ export const reactjsProjects = [
 		image: videocraze,
 		source_code_link: "https://github.com/vyomPundhir/Video_Craze",
 		live_link: "https://video-craze-tj.netlify.app/",
+	},
+
+	{
+		name: "Admin Dashboard",
+		description:
+			"A Responsive React Admin Panel UI which contains the User, single user, add user section and the Product, single product, add product section.",
+		tags: [
+			{
+				name: "react",
+				color: "#1eff00",
+			},
+			{
+				name: "rapidAPI",
+				color: "#00f6ff",
+			},
+			{
+				name: "tailwindcss",
+				color: "#ff0098",
+			},
+			
+		],
+		image: adminDashboard,
+		source_code_link: "https://github.com/vyomPundhir/Admin_Dashboard",
+		live_link: "https://admin-dashboard-vp.netlify.app/",
 	},
 
 	{
